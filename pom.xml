@@ -18,4 +18,17 @@
   <build>
     <finalName>interiorWebApp</finalName>
   </build>
+<distributionManagement>
+<repository>
+<id>name at nexus configre id in jenkins</id>
+<name>Releases</name>
+<url>http://54.236.23.226:8080/nexus-latest/content/repositories/releases/</url>
+</repository>
+<snapshotRepository>
+<id>name</id>
+<name>Snapshots</name>
+<url>http://54.236.23.226:8080/nexus-latest/content/repositories/snapshots/</url>
+</snapshotRepository>
+</distributionmanagement>
 </project>
+
